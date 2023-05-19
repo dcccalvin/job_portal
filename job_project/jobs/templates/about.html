@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'about.css' %}">
+    <title>Career Carnival</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css" integrity="sha512-gFn7XRm5v3GlgOwAQ80SXDT8pyg6uaV9JbW2OkNx5Im2jR8zx2X/3DbHymcZnUraU+klZjRJqNfNkFN7SyR3fg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css" integrity="sha512-b42SanD3pNHoihKwgABd18JUZ2g9j423/frxIP5/gtYgfBz/0nDHGdY/3hi+3JwhSckM3JLklQ/T6tJmV7mZEw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css" integrity="sha512-phGxLIsvHFArdI7IyLjv14dchvbVkEDaH95efvAae/y2exeWBQCQDpNFbOTdV1p4/pIa/XtbuDCnfhDEIXhvGQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="animate__fadeInDown" style="color: white;">
+
+    <div class="top">
+
+        <div class="heading">
+            What is it we do?
+        </div>
+
+        <div class="signlog">
+            <div class="signup">
+                <button>
+                    <span class="box">
+                        <a style="text-decoration: none;color: aliceblue;" href="/signup">Sign Up</a>
+                    </span>
+                </button> 
+            </div>
+            
+            <div class="Login">
+                <button>
+                    <span class="box">
+                        <a style="text-decoration: none;color: aliceblue;" href="/signin">Login</a>
+                    </span>
+                </button> 
+            </div>
+        </div>
+    
+    </div>
+    <div class="animate__bounceInDown">
+        <div class="par1">  
+        
+            <div class="animate__rotateInDownLeft">
+                <div class="intimage">
+                    <img style="border-radius: 10px;" src="{% static 'images/int3.jpeg' %}" alt="">
+                </div><br>
+            </div>
+            <div class="animate__rotateInDownRight">
+                <div class="intpar">
+                    <p>
+                        Our job website is a comprehensive platform that helps connect companies with job vacancies to qualified job seekers. For employers, we provide a job posting feature that enables them to advertise job openings to a large pool of potential candidates. Employers can also screen and select applicants based on criteria such as experience, education, and skills. We offer tools to manage the hiring process efficiently, such as scheduling interviews and communicating with candidates. We strive to create a positive and inclusive environment that values diversity and equal opportunities for all.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <div class="">
+    <div class="par1" >  
+        
+        
+        <div class="intpara">
+            <p>
+                For job seekers, we offer a user-friendly interface that makes it easy to search and apply for job openings that match their qualifications. We provide a range of tools and resources to help job seekers improve their chances of finding the right job, including resume builders, interview preparation guides, and career advice articles. Our platform also offers networking opportunities that enable job seekers to connect with other professionals and potential employers. We understand that job searching can be stressful, so we aim to provide a supportive and accessible job search experience to make it easier for job seekers to find their ideal career. Our ultimate goal is to build a community of talented professionals and companies who can grow and succeed together, creating a thriving job market for all.            </p>
+        </div>
+        <div class="intimage">
+            <img style="border-radius: 10px;" src="{% static 'images/intermidiary.jpeg' %}" alt="">
+        </div><br>
+    </div>
+   </div>
+
+</body>
+</html>

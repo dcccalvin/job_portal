@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'signin.css' %}">
+</head>
+<body>
+    <div class="login-box">
+        <p>Login</p>
+        <form method="post">
+          
+          <div class="user-box">
+            <input required="" name="Username" type="text">
+            <label>Username</label>
+          </div>
+
+
+          <div class="user-box">
+            <input required="" name="password" type="password">
+            <label>Password</label>
+          </div>
+
+
+          <a type="Submit" >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </a>
+
+
+        </form>
+        <p>Don't have an account? <a href="/signup" class="a2">Sign up!</a></p>
+      </div>
+</body>
+</html>
